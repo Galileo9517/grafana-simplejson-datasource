@@ -20,7 +20,7 @@ def health_check():
 
 @app.route('/search', methods=['POST'])
 def search():
-    return jsonify(['my_series', 'another_series'])
+    return jsonify(['Interest', 'Movies'])
 
 
 @app.route('/query', methods=['POST'])
